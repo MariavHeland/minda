@@ -80,7 +80,10 @@ export default function Minda() {
 
       <footer className="footer">
         <span>MINDA · minda.mov</span>
-        <span>DA SUITE · dasuite.mov</span>
+        <span style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
+          <a href="https://dasuite.mov/legal" style={{ color: 'inherit', textDecoration: 'none', opacity: 0.6 }}>Legal &amp; Privacy</a>
+          <span>DA SUITE · dasuite.mov</span>
+        </span>
       </footer>
     </>
   );
